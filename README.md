@@ -35,6 +35,7 @@ To run the web application on your local machine, follow these steps:
 3. Clone flask app in another folder and start:
 
 ```git clone https://github.com/Fenaz12/IntelliShelf-ObjectDetection```
+
 ```python app.py```
 
 Then you can send images from your mobile app and get predictions.
