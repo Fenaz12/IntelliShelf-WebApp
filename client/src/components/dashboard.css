@@ -1,0 +1,38 @@
+body{
+    background: #121524;  /* fallback for old browsers */
+}
+
+.itemList::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  /* Style the scrollbar track */
+  ::-webkit-scrollbar-track {
+    background-color: #282c34;
+  }
+  
+  /* Style the scrollbar thumb */
+  ::-webkit-scrollbar-thumb {
+    background-color: #6c757d;
+    border-radius: 5px;
+  }
+  
+  /* Change the appearance of the scrollbar when the mouse is over it */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #adb5bd;
+  }
+  
+  /* Change the appearance of the scrollbar when it's in the "dragging" state */
+  ::-webkit-scrollbar-thumb:active {
+    background-color: #ced4da;
+  }
+
+
+p.css-r40f8v-MuiTypography-root{
+    color:white;
+}
+
+::placeholder {
+    color: white;
+  }

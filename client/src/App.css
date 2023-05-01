@@ -1,0 +1,18 @@
+body{
+  background: #121524;  /* fallback for old browsers */
+  
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.25),
+       only screen and (min--moz-device-pixel-ratio: 1.25),
+       only screen and (min-device-pixel-ratio: 1.25) {
+  body{
+    overflow-y: auto;
+  }
+}
+
+@media (-webkit-device-pixel-ratio: 1) {
+  body {
+    overflow-y: hidden;
+  }
+}

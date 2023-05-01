@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dbcad480.css",
+    "main.js": "/static/js/main.fd0c0983.js",
+    "static/js/787.c2b7277b.chunk.js": "/static/js/787.c2b7277b.chunk.js",
+    "static/media/carrot.png": "/static/media/carrot.6962819eb6086f824f9d.png",
+    "static/media/orange.png": "/static/media/orange.6faa50e59af46f5d696c.png",
+    "static/media/banana.png": "/static/media/banana.c562ef4808184ca8533a.png",
+    "static/media/bananas.png": "/static/media/bananas.ffb6a238910dd32cf835.png",
+    "static/media/breads.png": "/static/media/breads.9831d5647a4f4ee07ba6.png",
+    "static/media/potatoe.png": "/static/media/potatoe.9abff679becd30d6515d.png",
+    "static/media/apple.png": "/static/media/apple.f4681568ac5007784af1.png",
+    "static/media/tomato.png": "/static/media/tomato.0e51eea52afeed287b15.png",
+    "static/media/cereal.png": "/static/media/cereal.bc578983c52aa468b0eb.png",
+    "index.html": "/index.html",
+    "main.dbcad480.css.map": "/static/css/main.dbcad480.css.map",
+    "main.fd0c0983.js.map": "/static/js/main.fd0c0983.js.map",
+    "787.c2b7277b.chunk.js.map": "/static/js/787.c2b7277b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dbcad480.css",
+    "static/js/main.fd0c0983.js"
+  ]
+}
