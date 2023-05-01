@@ -72,7 +72,7 @@ export default function Dashboard() {
     const fetchData = async() =>{
       const userInfo = JSON.parse(localStorage.getItem("userInfo"));
       const email = userInfo.email;
-      const result = await axios(`/api/user-data/${email}`);
+      const result = await axios(`http://127.0.0.1:8080/api/user-data/${email}`);
       
       for (const key in result.data) {
         if (result.data.hasOwnProperty(key)) {
@@ -152,7 +152,7 @@ useEffect(() => {
   
   const interval = setInterval(() => {
     fetchData();
-  }, 60000); 
+  }, 3000000); 
 
   return () => clearInterval(interval);
 }, []);
@@ -164,7 +164,7 @@ useEffect(() => {
     const email = userInfo.email;
     const updatedItems = items.map(item => ({ item: item.name, stock: item.stock }));
     try {
-      const response = await axios.put(`/api/data/${email}`, {
+      const response = await axios.put(`http://127.0.0.1:8080/api/data/${email}`, {
         email: email,
         items: updatedItems,
       });

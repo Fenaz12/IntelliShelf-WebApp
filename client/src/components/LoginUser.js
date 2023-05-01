@@ -51,7 +51,7 @@ export default function LoginUser() {
             }
             setLoading(true);
 
-            const {data} = await axios.post("/api/login",{
+            const {data} = await axios.post("http://127.0.0.1:8080/api/login",{
                 email,
                 password
             },
