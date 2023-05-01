@@ -26,7 +26,7 @@ To run the web application on your local machine, follow these steps:
 
 1. Clone the repository to your local machine:
 
-```git clone https://github.com/yourusername/your-repo.git ```
+```git clone https://github.com/Fenaz12/IntelliShelf-WebApp.git```
 
 2. Install required packages on both client and server:
 
