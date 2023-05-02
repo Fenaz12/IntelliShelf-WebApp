@@ -30,7 +30,10 @@ To run the web application on your local machine, follow these steps:
 
 2. Install required packages on both client and server:
 
+```npm install```
+
 ```npm start```
+
 
 3. Clone flask app in another folder and start:
 
